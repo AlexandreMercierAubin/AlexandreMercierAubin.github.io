@@ -1,0 +1,3 @@
+[submodule "publications/CV"]
+	path = publications/CV
+	url = https://github.com/AlexandreMercierAubin/CV.git
