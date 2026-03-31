@@ -3025,6 +3025,22 @@ input, select, textarea {
 			position: relative;
 		}
 
+		#header .quick-links {
+			margin: 0.6em 0 0 0;
+		}
+
+			#header .quick-links:after {
+				display: none;
+			}
+
+			#header .quick-links li {
+				padding: 0 0.45em 0.7em 0.45em;
+			}
+
+			#header .quick-links .button {
+				min-width: 12em;
+			}
+
 			#header .actions li:first-child {
 				padding-left: 0;
 			}
@@ -3038,6 +3054,15 @@ input, select, textarea {
 				top: 100%;
 				width: 1px;
 			}
+
+		@media screen and (max-width: 736px) {
+
+			#header .quick-links .button {
+				min-width: 0;
+				width: 100%;
+			}
+
+		}
 
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
